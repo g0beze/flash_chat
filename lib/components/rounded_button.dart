@@ -5,7 +5,7 @@ class RoundedButton extends StatelessWidget {
     super.key,
     required this.color,
     required this.btitle,
-    required this.onpush,
+    this.onpush,
   });
 
   late Color? color;
